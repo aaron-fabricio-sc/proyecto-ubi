@@ -193,6 +193,54 @@ footer {
   color: white;
 }
 
+footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+footer .redes li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+footer .redes li a:hover {
+  text-decoration: none;
+}
+
+footer .redes li a i {
+  font-size: 26px;
+}
+
+footer .redes li .facebook {
+  background: #3b5998;
+}
+
+footer .redes li .whatsapp {
+  background: #25D366;
+}
+
+footer .redes li .instagram {
+  background: #e1306c;
+}
+
 footer .fo_titulo {
   font-size: 20px;
   font-family: "Roboto", sans-serif;

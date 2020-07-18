@@ -241,7 +241,44 @@ hr {
 footer {
     background: $color-principal;
     color     : $color-claro;
-
+    .redes{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        li{
+            a{
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               color: $color-claro;
+                padding: $spacing-normal;
+                border-radius: 8px;
+                &:hover{
+                    text-decoration: none;
+                }
+                i{
+                   
+                    font-size: $font-size-x-big;
+                    
+                }
+              
+            }
+            .facebook{
+                background: #3b5998;
+            }
+            .whatsapp{
+                background: #25D366;
+            }
+            .instagram{
+               background:  #e1306c;
+            }
+        }
+        
+        
+    }
     .fo_titulo {
         font-size  : $font-size-big;
         font-family: $font-2;
